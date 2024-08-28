@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() 
+{
+  int x, y;
+  printf("informe dois numeros inteiros:");
+  scanf("%d %d", &x, &y);
+  if(x>y)
+    printf("%d e maior!", x);
+  else if (y>x)
+    printf("o numero %d e o maior!", y);
+  else
+    printf("os numeros sao iguais!");
+  return 0;
+}
